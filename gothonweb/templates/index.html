@@ -1,0 +1,22 @@
+$def with (greeting)
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gothons Of Planet Percal #25</title>
+  <style>
+    .greenClass{
+      color:green; 
+      font-size: 2em;
+    }
+  </style>
+  
+</head>
+<body>
+  $if greeting:
+    I just wanted to say <em class="greenClass" >$greeting</em>
+  $else:
+  <em>Hello</em>, World
+</body>
+</html>
